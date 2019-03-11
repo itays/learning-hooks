@@ -1,3 +1,8 @@
+Following with [egghead hooks course](https://egghead.io/playlists/react-hooks-and-suspense-650307f2)
+
+----
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
