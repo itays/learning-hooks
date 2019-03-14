@@ -1128,6 +1128,11 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
 
+"@types/vanilla-tilt@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@types/vanilla-tilt/-/vanilla-tilt-1.4.1.tgz#acd3af3ef2aacdb82d55554364882c9106bfe906"
+  integrity sha512-2qneUAFiiReB2ycnTMUS+6IVaSopLfVK0mo5IO4fcnubwcIvHyHHAeSy7OrYbmCXxAJxZOV/QNT2KU8jG+dUnw==
+
 "@types/vfile-message@*":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/vfile-message/-/vfile-message-1.0.1.tgz#e1e9895cc6b36c462d4244e64e6d0b6eaf65355a"
@@ -10024,6 +10029,11 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
+
+vanilla-tilt@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.6.1.tgz#7472eda102f565c077b76e6240f36941436f2e24"
+  integrity sha512-vxyYcQOtiwCtUPHGQ4J2iAGkk8NigAXI1EkVX+LqppijQYXyqsUqpw2QOEQCAOmEUXhWFZb6kXJS/LJ3N7/8PQ==
 
 vary@~1.1.2:
   version "1.1.2"

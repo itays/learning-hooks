@@ -12,7 +12,8 @@
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
     "react-testing-library": "^6.0.0",
-    "typescript": "3.3.3333"
+    "typescript": "3.3.3333",
+    "vanilla-tilt": "^1.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +29,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/vanilla-tilt": "^1.4.1"
+  }
 }
