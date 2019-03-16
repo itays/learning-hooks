@@ -1,6 +1,8 @@
+// tslint:disable-next-line:quotemark
 import React, { Component } from 'react';
-import Counter from './Counter';
-import Tilt from './Tilt';
+// import Counter from './Counter';
+// import Tilt from './Tilt';
+import Stopwatch from './Stopwatch';
 import './App.css';
 
 class App extends Component {
@@ -9,9 +11,10 @@ class App extends Component {
 			<div className="App">
 				{/* <Counter />
 				<hr /> */}
-				<Tilt>
+				{/* <Tilt>
 					<div>vanilla-tilt.js</div>
-				</Tilt>
+				</Tilt> */}
+				<Stopwatch />
 			</div>
 		);
 	}
