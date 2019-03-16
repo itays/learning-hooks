@@ -1,12 +1,22 @@
+html,
+body,
+#root {
+	height: 100%;
+}
 .App {
 	display: flex;
 	align-content: center;
 	justify-content: center;
-}
-.tilt-root {
+	align-items: center;
+	height: 100%;
 }
 .tilt-child {
 	width: 200px;
 	height: 150px;
-	background-color: red;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font: bold 18px arial;
 }
