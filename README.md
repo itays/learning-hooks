@@ -1,4 +1,4 @@
-Following with [egghead hooks course](https://egghead.io/playlists/react-hooks-and-suspense-650307f2)
+Following with [egghead hooks course](https://egghead.io/playlists/react-hooks-and-suspense-650307f2) and [this course](https://egghead.io/courses/simplify-react-apps-with-react-hooks)
 
 ----
 
