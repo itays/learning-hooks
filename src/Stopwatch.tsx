@@ -22,7 +22,7 @@ const reducer = (state: IStateType, action: IActionType): IStateType => {
 		case 'LAPSE':
 			return {
 				...state,
-				lapse: action.now = action.startTime as number
+				lapse: action.now && action.startTime ? action.now - action.startTime : 0
 			};
 		case 'TOGGLE_RUNNING':
 			return {
@@ -44,7 +44,7 @@ const Stopwatch: FunctionComponent<any> = () => {
 	const [{ running, lapse }, dispatch] = useReducer(reducer, {
 		running: false,
 		lapse: 0
-	} as never);
+	});
 	const intervalRef = useRef<NodeJS.Timeout | null>(null);
 	const clearStopwatch = () => {
 		clearInterval(intervalRef.current as NodeJS.Timeout);
